@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>Form validation using javascript</h1>
+    <div>
+        <form name="validateform" action="index.html" method="post" onsubmit="return validationform()">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <label for="phonenumber">Phone Number</label>
+            <input type="number" name="phonenumber" id="phonenumber">
+            <label for="address">Address</label>
+            <textarea type="text" name="address" id="address" cols="21" rows="5"></textarea>
+            <button type="submit" value="submit" onclick="formsub()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align: center;
+}
+/*form creation section*/
+div{
+    margin:50px 400px;
+    border: 1px solid grey;
+    padding: 40px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+input,textarea{
+    display: block;
+    margin-bottom:  30px;
+    margin-top: 10px;
+    padding:5px 100px;
+    color: brown;
+    font-size: 20px;
+}
+input:focus,textarea:focus{
+    background-color: rgba(127, 255, 212, 0.158);
+}
+label{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(35, 165, 35);
+    border-color:rgb(35, 165, 35) ;
+    font-size: 15px;
+    color: white;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+/*form.html style page for submission*/
+.form-submitted{
+    background-color: rgba(127, 255, 212, 0.315);
+}
+h2{
+    text-align: center;
+    margin:300px 500px;
+}
